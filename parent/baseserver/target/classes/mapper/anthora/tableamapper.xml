@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dk.dao.anthora.TableaDao">
+    <select id="findDataById" resultType="java.lang.String"  parameterType="java.lang.Long">
+    select columnB from tablea where columnA = #{id,jdbcType=BIGINT}
+    </select>
+    <insert id="addData"  parameterType="com.dk.entity.TableA" >
+        insert into tablea (columnB,columnC) values (#{tableA.columnB},#{tableA.columnC});
+    </insert>
+</mapper>

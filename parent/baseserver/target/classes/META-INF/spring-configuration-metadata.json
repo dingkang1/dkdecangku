@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.dk.config.DataSourceConfig",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.driver-1",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.name-1",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.password-1",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.url-1",
+      "type": "java.lang.String",
+      "sourceType": "com.dk.config.DataSourceConfig"
+    }
+  ],
+  "hints": []
+}
